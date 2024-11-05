@@ -21,7 +21,7 @@ const isPrime = (num) => {
 const arr = [];
 for (let i = 100; i >= 1; i--) {
   // arr.push(i);
-  if (isPrimeTernary(i)) continue;
+  if (isPrime(i)) continue;
   if (i % 3 === 0 && i % 5 === 0) {
     arr.push("FooBar");
   } else if (i % 3 === 0) {
